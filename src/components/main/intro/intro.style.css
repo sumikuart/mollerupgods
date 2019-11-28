@@ -1,0 +1,60 @@
+.introStyle{
+    position: relative;
+    top: 0;
+    left: 0;   
+}
+
+.introStyle .introLeftButton{
+    position: absolute;
+    top:50%;
+    left: 30px;   
+    transform: translateY(-50%); 
+}
+
+.introStyle .introRightButton{
+    position: absolute;
+    top:50%;
+    right: 30px;   
+    transform: translateY(-50%); 
+}
+
+.introStyle .introLeftButton p,
+.introStyle .introRightButton p{
+    cursor: pointer;
+    font-size: 64px;
+}
+
+.introStyle .imgContainer{
+    max-width:900px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.introStyle .imgContainer .imgIntroSlider {
+    display:flex;
+    position: relative;
+    top:0;
+    left:0;
+  
+}
+
+.introStyle .imgContainer .imgIntroSlider.posLeft {
+    position: relative;
+    top:0;
+    left: 0px;   
+    transition: 1s;
+}
+.introStyle .imgContainer .imgIntroSlider.posmidt {
+
+    position: relative;
+    top:0;
+    left: -900px;   
+    transition: 1s;
+}
+.introStyle .imgContainer .imgIntroSlider.posright {
+
+    position: relative;
+    top:0;
+    left: -1800px;   
+    transition: 1s;
+}

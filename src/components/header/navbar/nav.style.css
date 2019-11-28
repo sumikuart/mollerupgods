@@ -1,0 +1,85 @@
+.navStyle {}
+
+.navStyle nav {}
+
+
+.navStyle nav ul {
+ display: flex;
+ flex-wrap: wrap;
+ cursor: pointer;
+ text-align: left;
+}
+
+.navStyle nav ul ul{
+    display: none;
+    max-height: 0px;
+    opacity: 0;
+    transition: 0.5s;
+    z-index: 200;
+    position: absolute;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.navStyle nav ul li:hover > ul {
+    display: block;
+    opacity: 1;
+    z-index: 210;
+    background-color: white;
+}
+
+
+.navStyle nav ul li{
+    list-style: none;
+    font-size: 20px;
+    width: 20%;
+    
+}
+
+.navStyle nav ul ul li{
+list-style: none;
+border-bottom: 1px solid black;
+width:100%;
+font-size: 18px;
+background-color: white;
+}
+
+
+
+.navStyle nav ul ul li a,
+.navStyle .sidePushNav {
+    text-decoration: none;
+    color: black;
+    padding: 20px 10px;
+    display: block;
+    margin-bottom:  0px;
+    
+}
+
+
+.navStyle nav ul ul li a:hover {
+    background-color: rgb(202, 202, 202);
+}
+
+.navStyle nav ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.navStyle .sidePushNav ul li:hover, 
+.navStyle nav ul li:hover{
+   color:#99888e;
+}
+
+
+.navStyle .sidePushNav ul li {
+    position: relative;
+    top:-25px;
+    left:200px;
+    width:300px
+}
