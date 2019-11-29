@@ -7,6 +7,8 @@ import ThemeContextProvider from './context/theme.context';
 // Componentss
 import MainHeader from './components/header/header.component';
 import IntroCom from './components/main/intro/intro.component';
+import NyhedsComponent from './components/main/nyheder/nyheder.component';
+import AktivitetsComponent from './components/main/aktiviteter/aktiviteter.component';
 
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
 
         <main>
           <IntroCom />
+          <NyhedsComponent />
+          <AktivitetsComponent />
         </main>
         
         <footer></footer>

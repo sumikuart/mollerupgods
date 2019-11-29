@@ -23,6 +23,7 @@ const MainHeader = () => {
 
     return(
 
+
         <div className="mainHeader" style={{ background:activeTheme.backdrop, color: activeTheme.syntax}}>
 
             <div className="headerThemeTogglerDiv" onClick={toggleTheme} style={{ border: '2px solid' + activeTheme.syntax}}> 

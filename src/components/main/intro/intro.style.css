@@ -2,19 +2,20 @@
     position: relative;
     top: 0;
     left: 0;   
+    min-height: 400px;
 }
 
 .introStyle .introLeftButton{
     position: absolute;
     top:50%;
-    left: 30px;   
+    left: -90px;   
     transform: translateY(-50%); 
 }
 
 .introStyle .introRightButton{
     position: absolute;
     top:50%;
-    right: 30px;   
+    right: -90px;   
     transform: translateY(-50%); 
 }
 
@@ -57,4 +58,40 @@
     top:0;
     left: -1800px;   
     transition: 1s;
+}
+
+.introStyle .introImgDots {
+    display: flex;
+
+    position: absolute;
+    top:90%;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.introStyle .introImgDots .chosenImgIntroDot {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    margin:15px;
+
+    background-color: gray;
+
+    cursor: pointer;
+}
+
+
+.introStyle .introImgDots .chosenImgIntroDot:nth-child(1).posLeft {
+
+    background-color: rgb(71, 71, 71);
+}
+
+.introStyle .introImgDots .chosenImgIntroDot:nth-child(2).posmidt {
+
+    background-color: rgb(71, 71, 71);
+}
+
+.introStyle .introImgDots .chosenImgIntroDot:nth-child(3).posright {
+
+    background-color: rgb(71, 71, 71);
 }

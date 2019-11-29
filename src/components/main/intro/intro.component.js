@@ -20,9 +20,14 @@ const IntroCom = () => {
 
 const moveIntroImgLeft = () => {
 
+    if(introSlider == 'posLeft') {
+        setIntroSlider('posright')
+    }
+
     if(introSlider == 'posmidt') {
         setIntroSlider('posLeft')
     }
+
     if(introSlider == 'posright') {
         setIntroSlider('posmidt')
     }
@@ -30,7 +35,9 @@ const moveIntroImgLeft = () => {
 
 
 const moveIntroImgRight = () => {
-
+    if(introSlider == 'posright') {
+        setIntroSlider('posLeft')
+        }
     if(introSlider == 'posmidt') {
         setIntroSlider('posright')
     }
@@ -39,12 +46,23 @@ const moveIntroImgRight = () => {
     }
 }
 
+const setIntroLeft = () =>{
+    setIntroSlider('posLeft')
+}
+
+const setIntroMidt = () =>{
+    setIntroSlider('posmidt')
+}
+
+const setIntroRight = () =>{
+    setIntroSlider('posright')
+}
 
     return(
         <div className="introStyle" style={{ background:activeTheme.backdrop, color: activeTheme.syntax}}>
 
             <div className="introLeftButton" onClick={moveIntroImgLeft}>
-                <p>&#x2190;</p>
+                <p>	&#60;</p>
             </div>
 
             <div className="imgContainer">
@@ -56,7 +74,15 @@ const moveIntroImgRight = () => {
             </div>
 
             <div className="introRightButton" onClick={moveIntroImgRight}>
-                <p>	&#x2192;</p>
+                <p>		&#62;</p>
+
+            </div>
+
+            <div className="introImgDots">
+
+                <div className={"chosenImgIntroDot " + introSlider} onClick={setIntroLeft}></div>
+                <div className={"chosenImgIntroDot " + introSlider} onClick={setIntroMidt}></div>
+                <div className={"chosenImgIntroDot " + introSlider} onClick={setIntroRight}></div>
 
             </div>
 
