@@ -26,12 +26,6 @@ const MainHeader = () => {
 
         <div className="mainHeader" style={{ background:activeTheme.backdrop, color: activeTheme.syntax}}>
 
-            <div className="headerThemeTogglerDiv" onClick={toggleTheme} style={{ border: '2px solid' + activeTheme.syntax}}> 
-
-                <p>Change Theme</p>
-
-            </div>
-
             <div className="logoholder">
                 <a href="/">
                     <img src={logo} alt="Mollerup Estate" />

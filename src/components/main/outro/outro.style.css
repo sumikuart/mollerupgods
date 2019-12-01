@@ -1,0 +1,64 @@
+.outroStyle {
+    padding-bottom: 30px;
+    border-top: 1px solid rgb(175, 175, 175);
+}
+
+.outroStyle .flexerInnerOutro {
+    display: flex;
+}
+
+.outroStyle .flexerOutro {
+    display: flex;
+    justify-content: space-between;
+    margin-top:30px;
+}
+
+.outroStyle img {
+    width:70%;
+}
+
+
+.outroStyle .outroTextForm {
+margin-bottom: 10px;
+}
+
+
+.outroStyle span {
+    color:#E85C41
+}
+
+.outroStyle .outroTextForm label {
+    display: block;
+}
+
+.outroStyle .flexerOutro input {
+    margin-top:7px;
+    margin-left: 7px;
+}
+
+.outroStyle .headline {
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.outroStyle .info{
+    text-align: right;
+    margin: 5px 0;
+
+}
+
+.outroStyle .outroButton {
+    display: block;
+
+    border: none;
+    border-radius: 10px;
+
+    width:100%;
+    height:50px;
+
+    cursor: pointer;
+}
+
+.outroStyle .outroButton:hover {
+    background-color: rgb(146, 146, 255);
+}

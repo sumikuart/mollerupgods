@@ -1,0 +1,36 @@
+.NyhedDetaljeStyle {
+    padding-bottom: 20px;
+}
+
+.NyhedDetaljeStyle .setUpDetailsNews {
+    width: 100%;
+    margin: 0 auto;
+    min-height: 50vh;
+}
+
+
+.NyhedDetaljeStyle .setUpDetailsNews .headline {
+    font-family: 'Playfair Display', cursive;
+    font-size: 64px;
+    text-align: center;
+}
+
+
+.NyhedDetaljeStyle .setUpDetailsNews img {
+    display: block;
+    width:50%;
+    margin: 0 auto;
+}
+
+
+.NyhedDetaljeStyle .setUpDetailsNews .description{
+    font-size: 32px;
+}
+
+.NyhedDetaljeStyle .setUpDetailsNews a {
+    color:black;
+    font-size: 32px;
+    display: block;
+    text-align: center;
+    
+}

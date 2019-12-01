@@ -9,8 +9,8 @@ const ThemeContextProvider = (props) =>{
     })
 
     const [theme, setTheme] = useState([
-        {light: {backdrop:'#eee', syntax:'#333', hover:'#99888e'} },
-        {dark: {backdrop:'#555', syntax:'#ddd', hover:'#333'} } 
+        {light: {backdrop:'#eee', syntax:'#333', hover:'#99888e', ambientbackdrop:'#eee', linkcolor:'black', widerbackdrop:'#eee', footerbackdrop:'#E4E4E4'} },
+        {dark: {backdrop:'#555', syntax:'#ddd', hover:'#333', ambientbackdrop:'#2A3439',  linkcolor:'white', widerbackdrop:'#555', footerbackdrop:'#3F484C'} } 
     ])
 
 

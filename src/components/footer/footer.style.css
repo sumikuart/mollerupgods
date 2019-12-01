@@ -1,0 +1,12 @@
+ .footerWrapper {
+     width:900px;
+     margin: 0 auto;
+ }
+
+ .footerWrapper .lineFlexer{
+     display: flex;
+     justify-content: space-between;
+     padding: 50px;
+     line-height: 2;
+ }
+

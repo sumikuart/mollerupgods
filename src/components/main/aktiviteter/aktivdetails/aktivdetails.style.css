@@ -1,0 +1,36 @@
+.AktivDetaljeStyle {
+    padding-bottom: 20px;
+}
+
+.AktivDetaljeStyle .setUpDetailsAktiv {
+    width: 100%;
+    min-height: 50vh;
+    margin: 0 auto;
+}
+
+
+.AktivDetaljeStyle .setUpDetailsAktiv .headline {
+    font-family: 'Playfair Display', cursive;
+    font-size: 64px;
+    text-align: center;
+}
+
+
+.AktivDetaljeStyle .setUpDetailsAktiv img {
+    display: block;
+    width:50%;
+    margin: 0 auto;
+}
+
+
+.AktivDetaljeStyle .setUpDetailsAktiv .description{
+    font-size: 32px;
+}
+
+.AktivDetaljeStyle .setUpDetailsAktiv a {
+    color:black;
+    font-size: 32px;
+    display: block;
+    text-align: center;
+    
+}

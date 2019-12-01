@@ -1,0 +1,21 @@
+.ScrollStyle{
+    position: fixed;
+    top:300px;
+    right:15%;
+
+    padding:20px;
+    border-radius: 10px;
+    border:2px solid black;
+
+    text-align: center;
+}
+
+.ScrollStyle p{
+    padding:5px;
+    font-weight: bolder;
+}
+
+.ScrollStyle p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

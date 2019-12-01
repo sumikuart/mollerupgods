@@ -1,0 +1,19 @@
+.mainbackdrop {
+    position: fixed;
+    top:0;
+    left:0;
+    min-width:100%;
+    min-height: 100%;
+    z-index: -1;
+
+}
+
+.widerbackdrop {
+    position: fixed;
+    top:0;
+    left:50%;
+    transform: translateX(-50%);
+    width:1000px;
+    min-height: 100%;
+
+}
